@@ -5,6 +5,7 @@
 - Github Education: https://education.github.com/pack
 - Webstorm: https://www.jetbrains.com/webstorm/
 - fish (recommended): https://fishshell.com/
+- Bash for Windows : https://msdn.microsoft.com/en-us/commandline/wsl/install-win10 (Windows only)
 
 # Setup
 
@@ -12,7 +13,7 @@ Make a github account and add UX-Society repository linked and fork the nsu-webs
 To use fish either type `fish` in the terminal or set it as defualt with `chsh -s /usr/bin/fish` (needs root)
 # Basic Terminal Usage
 
-The ternimal is a powerful way to use a computer and learning how to use it properly important for seroius work. Using the terminal is easy for macOs and other Linux based computers and replacing bash with fish will make it even easier. (idk about windows). To use the terminal a command has to be given which follows this general format.
+The ternimal is a powerful way to use a computer and learning how to use it properly important for seroius work. Using the terminal is easy for macOs and other Linux based computers and replacing bash with fish will make it even easier. Windows is not recommended for web-dev work, but bash for Windows can be installed. To use the terminal a command has to be given which follows this general format.
 ```
     "command name" "command sub-name" -arguments "info"
 ```
