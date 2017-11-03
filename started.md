@@ -5,6 +5,9 @@
 - Github Education: https://education.github.com/pack
 - Webstorm: https://www.jetbrains.com/webstorm/
 - fish (recommended): https://fishshell.com/
+
+### Windows only
+- Fedora (recommended): http://linuxbsdos.com/2016/12/01/dual-boot-fedora-25-windows-10-on-a-computer-with-uefi-firmware/ 
 - Bash for Windows : https://msdn.microsoft.com/en-us/commandline/wsl/install-win10 (Windows only)
 
 # Setup
