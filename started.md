@@ -31,6 +31,7 @@ Here are some useful commands:
 - cd: 'change directory' - it moves you around the filesystem. Ex:  `cd WebstormProjects/nsu-website/`
 - ls: 'list directory contents' - tells you all the files in the current dir. Ex: `ls -a`
 - man: 'manual' - tells you how to use a command. Ex: `man man` (tells you how to use itself)
+- help: in fish opens documentation for the shell in browser 
  
 # Libraries and Tools
 
