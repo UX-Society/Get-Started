@@ -103,7 +103,8 @@ After running hugo and yarn, view the site by going to http://localhost:1313/. M
 Edit these files to chage the website locally and will be merged with the main branch when done. Html changes the elements and sass (css) changes the layout and appreance of those elements.
  
 # FAQ
-If you are confused or get and error: just Google it `: )`
+If you are confused or get and error: 
+    just Google it `: )`
 
 
   
