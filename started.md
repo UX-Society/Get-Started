@@ -104,7 +104,7 @@ Edit these files to chage the website locally and will be merged with the main b
  
 # FAQ
 If you are confused or get and error: 
-    -just Google it `: )`
+    - just Google it `: )`
 
 
   
