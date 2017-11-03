@@ -9,7 +9,7 @@
 # Setup
 
 Make a github account and add UX-Society repository linked and fork the nsu-website to edit it. Then use the Github Education link to get free stuff. Do the same to get Webstorm for free (or use an IDE of your choice). Fish is a reccomended shell to replace bash and will make terminal work easier, but is not required.
-
+To use fish either type `fish` in the terminal or set it as defualt with `chsh -s /usr/bin/fish` (needs root)
 # Basic Terminal Usage
 
 The ternimal is a powerful way to use a computer and learning how to use it properly important for seroius work. Using the terminal is easy for macOs and other Linux based computers and replacing bash with fish will make it even easier. (idk about windows). To use the terminal a command has to be given which follows this general format.
