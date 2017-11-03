@@ -101,17 +101,21 @@ you will need to run both the yarn and hugo commands. To do this open another ta
 After running hugo and yarn, view the site by going to http://localhost:1313/. Most of the files in the site can be ignored, the important files and directories to use are laid out here.
 
 - /themes/source-flask-theme/ is the main folder of interest
-  - /themes/config.toml/ is where the actual info for the site is located.
-        Edit your section under `[params."your section name]` and reference this content with `.Site.Params.morea_about."content name"` in the html partial file
   - /themes/source-flask-theme/layouts/partials/ is were your section of html to edit will be found
   - /themes/source-flask-theme/src/sass/section/ is where your sass (css) file will be found
+  - /themes/source-flask-theme/static/ is where icons should be added
 - /static/img/ is where images should be added
+- config.toml/ is where the actual info for the site is located.
+        Edit your section under `[params."your section name]` and reference this content with `.Site.Params.'sub section name"."content name"` in the html partial file
+- 
+ 
 
 Edit these files to chage the website locally and they will be merged with the main branch when done. Tomt changes the actual content (text, images etc.), html changes the elements, and sass (css) changes the layout and appreance of those elements.
  
 # FAQ
 If you are confused or get and error: 
 - just Google it `: )`
+- really though, ask Micheal on Slack 
 
 
   
