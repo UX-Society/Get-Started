@@ -31,7 +31,7 @@ Here are some useful commands:
 - cd: 'change directory' - it moves you around the filesystem. Ex:  `cd WebstormProjects/nsu-website/`
 - ls: 'list directory contents' - tells you all the files in the current dir. Ex: `ls -a`
 - man: 'manual' - tells you how to use a command. Ex: `man man` (tells you how to use itself)
-- help: in fish opens documentation for the shell in browser. Ex `help`
+- help: in fish opens documentation for the shell in browser. Ex: `help`
  
 # Libraries and Tools
 
@@ -93,7 +93,9 @@ Running in Fast Render Mode. For full rebuilds on change: hugo server --disableF
 Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 ```
 
-note: you will need to run both the yarn and hugo commands. To do this open another tab in your current terminal or a new terminal. yarn will update the css and hugo should react to the changes from webpack.
+### Note
+
+you will need to run both the yarn and hugo commands. To do this open another tab in your current terminal or a new terminal. yarn will update the css and hugo should react to the changes from webpack.
 
 # Usage
 After running hugo and yarn, view the site by going to http://localhost:1313/. Most of the files in the site can be ignored, the important files and directories to use are laid out here.
