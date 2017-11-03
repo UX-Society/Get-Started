@@ -107,7 +107,7 @@ After running hugo and yarn, view the site by going to http://localhost:1313/. M
   - /themes/source-flask-theme/src/sass/section/ is where your sass (css) file will be found
 - /static/img/ is where images should be added
 
-Edit these files to chage the website locally and they will be merged with the main branch when done. Tomt is the actual content (text, images etc.), html changes the elements, and sass (css) changes the layout and appreance of those elements.
+Edit these files to chage the website locally and they will be merged with the main branch when done. Tomt changes the actual content (text, images etc.), html changes the elements, and sass (css) changes the layout and appreance of those elements.
  
 # FAQ
 If you are confused or get and error: 
