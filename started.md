@@ -12,7 +12,7 @@
 
 # Setup
 
-Make a github account with your school email and get invited to the UX-Society repository linked. Then use the Github Education link to get free stuff. Do the same to get Webstorm for free (or use an IDE of your choice). Fish is a reccomended shell to replace bash and will make terminal work easier, but is not required.
+Make a github account with your school email and get invited to the UX-Society repository linked. Then use the Github Education link to get free stuff. Also sign up with your school email in Jetbrains to get Webstorm for free (or use an IDE of your choice). Fish is a reccomended shell to replace bash and will make terminal work easier, but is not required.
 To use fish either type `fish` in the terminal or set it as defualt with `chsh -s /usr/bin/fish` (needs root)
 # Basic Terminal Usage
 
