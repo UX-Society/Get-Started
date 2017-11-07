@@ -116,10 +116,6 @@ Edit these files to chage the website locally and they will be merged with the m
 If you are confused or get and error: 
 - just Google it `: )`
 - really though, ask Micheal on Slack
+
 Website doesn't update changes, when running hugo and yarn
 -clear cache in settings or do right-click > inspect element > network > check disable cache
-
-
-  
-  
-  
