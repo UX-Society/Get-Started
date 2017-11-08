@@ -138,7 +138,7 @@ After committing, push either in Webstorm or `git push` in the main project dire
 Then go to your own project clone on github and pull (`git pull`) request the main branch in order to review changes and request for main changes 
 - Note: any commits after the pull request will automatically added until the pull request is closed
     
-After your changes have been (hopefully) accepted, update your own project in VCS > Update project
+After your changes have been (hopefully) accepted and merged, update your own project in VCS > Update project to sync other people's changes
 
 # FAQ
 If you are confused or get and error: 
