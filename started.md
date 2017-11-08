@@ -111,7 +111,16 @@ After running hugo and yarn, view the site by going to http://localhost:1313/. M
  
 
 Edit these files to chage the website locally and they will be merged with the main branch when done. Tomt changes the actual content (text, images etc.), html changes the elements, and sass (css) changes the layout and appreance of those elements.
- 
+
+# Learning Web Dev
+
+There are a lot of resources online for learning html, boostrap, sass, and css. Some recoomened ones are below.
+- Bootstrap: https://getbootstrap.com/docs/4.0/layout/overview/
+    - Layout: https://getbootstrap.com/docs/4.0/layout/overview/
+- Sass: http://sass-lang.com/guide
+- html/css, just search for what you want to do, MDN recoomended over w3schools
+    -Ex: "mdn css background image" points to https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
+
 # FAQ
 If you are confused or get and error: 
 - just Google it `: )`
