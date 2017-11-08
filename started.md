@@ -123,7 +123,7 @@ There are a lot of resources online for learning html, boostrap, sass, and css. 
 - Link to images with /img/"image_name".jpg, NOT /static/img/"image_name".jpg
 
 ## After making changes
-Webstorm allows for easy git usage, go to VSC > Commit to cause the commit window to pop-up
+Webstorm allows for easy git usage, go to VCS > Commit to cause the commit window to pop-up
 - the left panel tracks changed file, any that were changed on accident should be unchecked
     - always uncheck style.css (NOT style.scss) because it is auto-generated, not edited
     - images without version control may show up everytime, add them with `git add .` before commiting
@@ -137,6 +137,8 @@ After commiting, push either in Webstorm or `git push` in the main project direc
 
 Then go to your own project clone on github and pull request the main branch to request for main changes and review changes
     -Note: any commits after the pull request will automatically added until the pull request is closed
+    
+After your changes have been (hopefully) accepted, update your own project in VCS > Update project
 
 # FAQ
 If you are confused or get and error: 
