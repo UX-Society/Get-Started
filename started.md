@@ -1,6 +1,6 @@
-# Creating Your Enviroment 
+# Creating Your Environment 
 
-# Basic Neccesities 
+# Basic Necessities 
 - Github: https://github.com/UX-Society
 - Github Education: https://education.github.com/pack
 - Webstorm: https://www.jetbrains.com/webstorm/
@@ -12,11 +12,11 @@
 
 # Setup
 
-Make a github account with your school email and get invited to the UX-Society repository linked. Then use the Github Education link to get free stuff. Also sign up with your school email in Jetbrains to get Webstorm for free (or use an IDE of your choice). Fish is a reccomended shell to replace bash and will make terminal work easier, but is not required.
-To use fish either type `fish` in the terminal or set it as defualt with `chsh -s /usr/bin/fish` (needs root)
+Make a github account with your school email and get invited to the UX-Society repository linked. Then use the Github Education link to get free stuff. Also sign up with your school email in Jetbrains to get Webstorm for free (or use an IDE of your choice). Fish is a recommended shell to replace bash and will make terminal work easier, but is not required.
+To use fish either type `fish` in the terminal or set it as default with `chsh -s /usr/bin/fish` (needs root)
 # Basic Terminal Usage
 
-The ternimal is a powerful way to use a computer and learning how to use it properly important for seroius work. Using the terminal is easy for macOs and other Linux based computers and replacing bash with fish will make it even easier. Windows is not recommended for web-dev work, but bash for Windows can be installed. To use the terminal a command has to be given which follows this general format.
+The terminal is a powerful way to use a computer and learning how to use it properly important for serious work. Using the terminal is easy for macOs and other Linux based computers and replacing bash with fish will make it even easier. Windows is not recommended for web-dev work, but bash for Windows can be installed. To use the terminal a command has to be given which follows this general format.
 ```
     "command name" "command sub-name" -arguments "info"
 ```
@@ -24,7 +24,7 @@ For example:
 ```
     sudo apt-get install -y fish
 ```   
-To break this command down, it starts with 'sudo' which indicated that the command is being run with max user authorization, use it very carefully. 'apt-get' is the main command and it tell the computer that I want to manage my packages (package is a name for a software bundle, which has been replace by App). 'install' tells the computer that I want to install a package, a feature of apt-get. '-y' is an aurgument denoted by the dash and slightly changes what the computer does, in this case to automatically skip the installation confirmation dialogue. 'fish' is the info of what is being done, in this case the package.
+To break this command down, it starts with 'sudo' which indicated that the command is being run with max user authorization, use it very carefully. 'apt-get' is the main command and it tell the computer that I want to manage my packages (package is a name for a software bundle, which has been replace by App). 'install' tells the computer that I want to install a package, a feature of apt-get. '-y' is an argument denoted by the dash and slightly changes what the computer does, in this case to automatically skip the installation confirmation dialogue. 'fish' is the info of what is being done, in this case the package.
 
 Here are some useful commands:
 
@@ -42,7 +42,7 @@ Here are some useful commands:
 
 # Installing
 
-This project requries yarn and hugo. Hugo is used to build the site and view a demo of what the site will look like.
+This project requires yarn and hugo. Hugo is used to build the site and view a demo of what the site will look like.
 Yarn is used to install the node packages such as webpack and lint. These tools help streamline the javascript and css. 
 
 # Getting Started
@@ -101,7 +101,7 @@ you will need to run both the yarn and hugo commands. To do this open another ta
 After running hugo and yarn, view the site by going to http://localhost:1313/. Most of the files in the site can be ignored, the important files and directories to use are laid out here.
 
 - /themes/source-flask-theme/ is the main folder of interest
-  - /themes/source-flask-theme/layouts/partials/ is were your section of html to edit will be found
+  - /themes/source-flask-theme/layouts/partials/ is where your section of html to edit will be found
   - /themes/source-flask-theme/src/sass/section/ is where your sass (css) file will be found
   - /themes/source-flask-theme/static/ is where icons should be added
 - /static/img/ is where images should be added
@@ -110,15 +110,15 @@ After running hugo and yarn, view the site by going to http://localhost:1313/. M
 - 
  
 
-Edit these files to chage the website locally and they will be merged with the main branch when done. Tomt changes the actual content (text, images etc.), html changes the elements, and sass (css) changes the layout and appreance of those elements.
+Edit these files to change the website locally and they will be merged with the main branch when done. Tomt changes the actual content (text, images etc.), html changes the elements, and sass (css) changes the layout and appearance of those elements.
 
 # Learning Web Dev
 
-There are a lot of resources online for learning html, boostrap, sass, and css. Some recoomened ones are below.
+There are a lot of resources online for learning html, bootstrap, sass, and css. Some recommended ones are below.
 - Bootstrap: https://getbootstrap.com/docs/4.0/layout/overview/
     - Layout: https://getbootstrap.com/docs/4.0/layout/overview/
 - Sass: http://sass-lang.com/guide
-- html/css, just search for what you want to do, MDN recoomended over w3schools
+- html/css, just search for what you want to do, MDN recommended over w3schools
     -Ex: "mdn css background image" points to https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
 - Link to images with /img/"image_name".jpg, NOT /static/img/"image_name".jpg
 
@@ -126,16 +126,16 @@ There are a lot of resources online for learning html, boostrap, sass, and css. 
 Webstorm allows for easy git usage, go to VCS > Commit to cause the commit window to pop-up
 - the left panel tracks changed file, any that were changed on accident should be unchecked
     - always uncheck style.css (NOT style.scss) because it is auto-generated, not edited
-    - images without version control may show up everytime, add them with `git add .` before commiting
+    - images without version control may show up every time, add them with `git add .` before committing
 - the middle box is for the message
     - try to make it short, but descriptive
 - bottom panels compares both versions so you can be confident with your changes
 
 
-After commiting, push either in Webstorm or `git push` in the main project directory.
+After committing, push either in Webstorm or `git push` in the main project directory.
 
 
-Then go to your own project clone on github and pull (`git pull`) request the main branch in order to reivew changes and request for main changes
+Then go to your own project clone on github and pull (`git pull`) request the main branch in order to review changes and request for main changes 
 - Note: any commits after the pull request will automatically added until the pull request is closed
     
 After your changes have been (hopefully) accepted, update your own project in VCS > Update project
@@ -143,7 +143,7 @@ After your changes have been (hopefully) accepted, update your own project in VC
 # FAQ
 If you are confused or get and error: 
 - just Google it `: )`
-- really though, ask Micheal on Slack
+- really though, ask Michael on Slack
 
 Website doesn't update changes, when running hugo and yarn:
 - clear cache in settings or do right-click > inspect element > network > check disable cache
