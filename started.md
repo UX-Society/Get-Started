@@ -128,7 +128,7 @@ Webstorm allows for easy git usage, go to VCS > Commit to cause the commit windo
     - always uncheck style.css (NOT style.scss) because it is auto-generated, not edited
     - images without version control may show up everytime, add them with `git add .` before commiting
 - the middle box is for the message
-    -try to make it short, but descriptive
+    - try to make it short, but descriptive
 - bottom panels compares both versions so you can be confident with your changes
 
 
