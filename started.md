@@ -52,7 +52,7 @@ Yarn is used to install the node packages such as webpack and lint. These tools 
 package.json has been configured with some helpers to simplify the build process for building the javascript and the scss files. 
 These commands will only work under a director with a package.json file.
 
-- `yarn run build' or 'npm run build`
+- `yarn run build` or `npm run build`
   - will build from src to public
 - `yarn run watch` or `npm run watch`
   - will build and watch for changes in src, but the webpack build has to be running for these changes to update
