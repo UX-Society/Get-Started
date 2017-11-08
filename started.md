@@ -120,6 +120,23 @@ There are a lot of resources online for learning html, boostrap, sass, and css. 
 - Sass: http://sass-lang.com/guide
 - html/css, just search for what you want to do, MDN recoomended over w3schools
     -Ex: "mdn css background image" points to https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
+- Link to images with /img/"image_name".jpg, NOT /static/img/"image_name".jpg
+
+## After making changes
+Webstorm allows for easy git usage, go to VSC > Commit to cause the commit window to pop-up
+- the left panel tracks changed file, any that were changed on accident should be unchecked
+    - always uncheck style.css (NOT style.scss) because it is auto-generated, not edited
+    - images without version control may show up everytime, add them with `git add .` before commiting
+- the middle box is for the message
+    -try to make it short, but descriptive
+- bottom panels compares both versions so you can be confident with your changes
+
+
+After commiting, push either in Webstorm or `git push` in the main project directory.
+
+
+Then go to your own project clone on github and pull request the main branch to request for main changes
+    -Note: any 
 
 # FAQ
 If you are confused or get and error: 
