@@ -135,8 +135,8 @@ Webstorm allows for easy git usage, go to VSC > Commit to cause the commit windo
 After commiting, push either in Webstorm or `git push` in the main project directory.
 
 
-Then go to your own project clone on github and pull request the main branch to request for main changes
-    -Note: any 
+Then go to your own project clone on github and pull request the main branch to request for main changes and review changes
+    -Note: any commits after the pull request will automatically added until the pull request is closed
 
 # FAQ
 If you are confused or get and error: 
