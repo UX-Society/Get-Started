@@ -107,8 +107,7 @@ After running hugo and yarn, view the site by going to http://localhost:1313/. M
 - /static/img/ is where images should be added
 - config.toml/ is where the actual info for the site is located.
         Edit your section under `[params."your section name]` and reference this content with `.Site.Params."sub section name"."content name"` in the html partial file
-- 
- 
+
 
 Edit these files to change the website locally and they will be merged with the main branch when done. Tomt changes the actual content (text, images etc.), html changes the elements, and sass (css) changes the layout and appearance of those elements.
 
