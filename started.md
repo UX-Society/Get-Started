@@ -121,13 +121,17 @@ There are a lot of resources online for learning html, bootstrap, sass, and css.
     -Ex: "mdn css background image" points to https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
 - Link to images with /img/"image_name".jpg, NOT /static/img/"image_name".jpg
 
+## CSS resources
+- center anything: https://css-tricks.com/centering-css-complete-guide/ 
+
 ## After making changes
 Webstorm allows for easy git usage, go to VCS > Commit to cause the commit window to pop-up
 - the left panel tracks changed file, any that were changed on accident should be unchecked
     - always uncheck style.css (NOT style.scss) because it is auto-generated, not edited
     - images without version control may show up every time, add them with `git add .` before committing
 - the middle box is for the message
-    - try to make it short, but descriptive
+    - format like: "[verb] [feature]"
+    - Ex: "Added nav bar", "Updated README.md"
 - bottom panels compares both versions so you can be confident with your changes
 
 
