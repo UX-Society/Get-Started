@@ -140,8 +140,8 @@ There are a lot for tricks to made webdev possible, and generally finding an exa
 
 Another aspect of css is that the same style should never be written more than once.
 
--'class' should almost always be used over 'id' even if an element is only used once. That is because another element may need to be added later. 'id' should only be used for in-page links (Ex: #home)
-- Classes should be derivative, which can be done multiple ways
+- 'class' should almost always be used over 'id' even if an element is only used once. That is because another element may need to be added later. 'id' should only be used for in-page links (Ex: `id="home"` refrenced with `scr="#home"`)
+- Classes should be derivative, which can be done multiple ways:
     - style multiple classes with comma ','
     - if a class is defined in a main css file, just reused the name to make a more specific version in your sub-page css file
     - Extend html defined classes with with a dot in between. Ex: `h1.section-title, h2.section-title {}`
