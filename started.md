@@ -95,9 +95,15 @@ Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 
 ### Note
 
-you will need to run both the yarn and hugo commands. To do this open another tab in your current terminal or a new terminal. yarn will update the css and hugo should react to the changes from webpack.
+You will need to run both the yarn and hugo commands. To do this open another tab in your current terminal or a new terminal. yarn will update the css and hugo should react to the changes from webpack.
 
-# Usage
+You can also you the history to avoid retyping the command each time, or use an alias. In fish set an alias with:
+    - `alias "alias name" "command"` and then running `funcsave 'alias name'` to make it permanent when you have it correctly
+    - Ex:  alias nsu-yarn `"cd ~/WebstormProjects/nsu-website/themes/source-flask-theme/;  yarn run watch"`
+    
+# Usage- Look for examples to adapt, generally the best way to learn
+    - Careful that the version between the example and your work are the same- Look for examples to adapt, generally the best way to learn
+    - Careful that the version between the example and your work are the same
 After running hugo and yarn, view the site by going to http://localhost:1313/. Most of the files in the site can be ignored, the important files and directories to use are laid out here.
 
 - /themes/source-flask-theme/ is the main folder of interest
@@ -117,12 +123,28 @@ There are a lot of resources online for learning html, bootstrap, sass, and css.
 - Bootstrap: https://getbootstrap.com/docs/4.0/layout/overview/
     - Layout: https://getbootstrap.com/docs/4.0/layout/overview/
 - Sass: http://sass-lang.com/guide
-- html/css, just search for what you want to do, MDN recommended over w3schools
+- html/css, just search for what you want to do
+    - MDN (https://developer.mozilla.org/en-US/docs/Learn) recommended over w3schools
     -Ex: "mdn css background image" points to https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
+    -Ex: "bootstrap glyphicons" points to "https://getbootstrap.com/docs/3.3/components/"
 - Link to images with /img/"image_name".jpg, NOT /static/img/"image_name".jpg
 
-## CSS resources
-- center anything: https://css-tricks.com/centering-css-complete-guide/ 
+## Tips
+
+There are a lot for tricks to made webdev possible, and generally finding an example to adapt the best way to go about anything. Be careful though, the example you may find can be for a different/incompatible version for software you are using. The environment we are using (bootstrap, Webstorm, hugo, sass, etc) should make work simpler so try to look up an example of these before using a from scratch method. A super important trick is to use Chrome's developer tools (Right-click > Inspect) to investigate issues. They can be used to see css style, temporarily change the style to see what fits best, and see the padding/border/margin/content at the bottom. Another trick is to make transparent divs/elements temporarily have a background-color style to make formating easier to see/understand.
+
+- Developer Tools: https://developer.chrome.com/devtools
+- Center anything: https://css-tricks.com/centering-css-complete-guide/
+- Stack overflow: https://stackoverflow.com/ is great for debugging
+    - don't search directly use google to +error/issue description
+
+Another aspect of css is that the same style should never be written more than once.
+
+-'class' should almost always be used over 'id' even if an element is only used once. That is because another element may need to be added later. 'id' should only be used for in-page links (Ex: #home)
+- Classes should be derivative, which can be done multiple ways
+    - style multiple classes with comma ','
+    - if a class is defined in a main css file, just reused the name to make a more specific version in your sub-page css file
+    - Extend html defined classes with with a dot in between. Ex: `h1.section-title, h2.section-title {}`
 
 ## After making changes
 Webstorm allows for easy git usage, go to VCS > Commit to cause the commit window to pop-up
@@ -143,10 +165,11 @@ Then go to your own project clone on github and pull (`git pull`) request the ma
     
 After your changes have been (hopefully) accepted and merged, update your own project in VCS > Update project to sync other people's changes
 
-# FAQ
-If you are confused or get and error: 
-- just Google it `: )`
-- really though, ask Michael on Slack
+Make sure to commit often and itemize changes
+
+# Potential issues
 
 Website doesn't update changes, when running hugo and yarn:
+- manually reload the page
+- Check that yarn is still compiling and not giving an error
 - clear cache in settings or do right-click > inspect element > network > check disable cache
