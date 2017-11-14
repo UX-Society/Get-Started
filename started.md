@@ -14,6 +14,7 @@
 
 Make a github account with your school email and get invited to the UX-Society repository linked. Then use the Github Education link to get free stuff. Also sign up with your school email in Jetbrains to get Webstorm for free (or use an IDE of your choice). Fish is a recommended shell to replace bash and will make terminal work easier, but is not required.
 To use fish either type `fish` in the terminal or set it as default with `chsh -s /usr/bin/fish` (needs root)
+
 # Basic Terminal Usage
 
 The terminal is a powerful way to use a computer and learning how to use it properly important for serious work. Using the terminal is easy for macOs and other Linux based computers and replacing bash with fish will make it even easier. Windows is not recommended for web-dev work, but bash for Windows can be installed. To use the terminal a command has to be given which follows this general format.
@@ -115,7 +116,7 @@ After running hugo and yarn, view the site by going to http://localhost:1313/. M
         Edit your section under `[params."your section name]` and reference this content with `.Site.Params."sub section name"."content name"` in the html partial file
 
 
-Edit these files to change the website locally and they will be merged with the main branch when done. Tomt changes the actual content (text, images etc.), html changes the elements, and sass (css) changes the layout and appearance of those elements.
+Edit these files to change the website locally and they will be merged with the main branch when done. tomt changes the actual content (text, images etc.), html changes the elements, and sass (css) changes the layout and appearance of those elements.
 
 # Learning Web Dev
 
@@ -138,7 +139,7 @@ There are a lot for tricks to made webdev possible, and generally finding an exa
 - Stack overflow: https://stackoverflow.com/ is great for debugging
     - don't search directly use google to +error/issue description
 
-Another aspect of css is that the same style should never be written more than once.
+Another aspect of css is that the same style should never be written more than once
 
 - 'class' should almost always be used over 'id' even if an element is only used once. That is because another element may need to be added later. 'id' should only be used for in-page links (Ex: `id="home"` refrenced with `scr="#home"`)
 - Classes should be derivative, which can be done multiple ways:
