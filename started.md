@@ -177,3 +177,7 @@ Website doesn't update changes, when running hugo and yarn:
 - manually reload the page
 - Check that yarn is still compiling and not giving an error
 - clear cache in settings or do right-click > inspect element > network > check disable cache
+
+# Adding a new hugo static page
+
+https://stackoverflow.com/questions/28569458/how-to-add-a-new-hugo-static-page
