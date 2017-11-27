@@ -130,6 +130,8 @@ There are a lot of resources online for learning html, bootstrap, sass, and css.
     -Ex: "bootstrap glyphicons" points to "https://getbootstrap.com/docs/3.3/components/"
 - Link to images with /img/"image_name".jpg, NOT /static/img/"image_name".jpg
 
+
+
 ## Tips
 
 There are a lot for tricks to made webdev possible, and generally finding an example to adapt the best way to go about anything. Be careful though, the example you may find can be for a different/incompatible version for software you are using. The environment we are using (bootstrap, Webstorm, hugo, sass, etc) should make work simpler so try to look up an example of these before using a from scratch method. A super important trick is to use Chrome's developer tools (Right-click > Inspect) to investigate issues. They can be used to see css style, temporarily change the style to see what fits best, and see the padding/border/margin/content at the bottom. Another trick is to make transparent divs/elements temporarily have a background-color style to make formating easier to see/understand.
@@ -146,6 +148,11 @@ Another aspect of css is that the same style should never be written more than o
     - style multiple classes with comma ','
     - if a class is defined in a main css file, just reused the name to make a more specific version in your sub-page css file
     - Extend html defined classes with with a dot in between. Ex: `h1.section-title, h2.section-title {}`
+    
+ 
+## Adding a new hugo static page
+
+https://stackoverflow.com/questions/28569458/how-to-add-a-new-hugo-static-page
 
 ## After making changes
 Webstorm allows for easy git usage, go to VCS > Commit to cause the commit window to pop-up
@@ -178,6 +185,3 @@ Website doesn't update changes, when running hugo and yarn:
 - Check that yarn is still compiling and not giving an error
 - clear cache in settings or do right-click > inspect element > network > check disable cache
 
-# Adding a new hugo static page
-
-https://stackoverflow.com/questions/28569458/how-to-add-a-new-hugo-static-page
