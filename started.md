@@ -99,8 +99,8 @@ Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 You will need to run both the yarn and hugo commands. To do this open another tab in your current terminal or a new terminal. yarn will update the css and hugo should react to the changes from webpack.
 
 You can also you the history to avoid retyping the command each time, or use an alias. In fish set an alias with:
-    - `alias "alias name" "command"` and then running `funcsave 'alias name'` to make it permanent when you have it correctly
-    - Ex:  alias nsu-yarn `"cd ~/WebstormProjects/nsu-website/themes/source-flask-theme/;  yarn run watch"`
+- `alias "alias name" "command"` and then running `funcsave 'alias name'` to make it permanent when you have it correctly
+- Ex:  alias nsu-yarn `"cd ~/WebstormProjects/nsu-website/themes/source-flask-theme/;  yarn run watch"`
     
 # Usage- Look for examples to adapt, generally the best way to learn
 Look for examples to adapt, generally the best way to learn
