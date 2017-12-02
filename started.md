@@ -103,8 +103,9 @@ You can also you the history to avoid retyping the command each time, or use an 
     - Ex:  alias nsu-yarn `"cd ~/WebstormProjects/nsu-website/themes/source-flask-theme/;  yarn run watch"`
     
 # Usage- Look for examples to adapt, generally the best way to learn
-    - Careful that the version between the example and your work are the same- Look for examples to adapt, generally the best way to learn
+Look for examples to adapt, generally the best way to learn
     - Careful that the version between the example and your work are the same
+
 After running hugo and yarn, view the site by going to http://localhost:1313/. Most of the files in the site can be ignored, the important files and directories to use are laid out here.
 
 - /themes/source-flask-theme/ is the main folder of interest
