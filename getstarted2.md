@@ -52,13 +52,13 @@ Install by going to https://www.jetbrains.com/student/ and using your *Chapman e
 
 Inside Webstorm use **Check out from Version Control** and sign into Github to automatically clone and manage a project. 
 
-![](/home/top/Pictures/filemanager.png) 
+![](/Pictures/filemanager.png) 
 The left column shows the open project's file-system
 
-![](/home/top/Pictures/edit.png)
+![](/Pictures/edit.png)
 The right area is where files are edited and closed
 
-![](/home/top/Pictures/events.png) 
+![](/Pictures/events.png) 
 
 The bottom will sometime have a pop-up that gives errors and other info about the project
 
@@ -77,6 +77,6 @@ Individual projects will use different libraries and support tools, but they all
 
 ### Tips
 - Right-click > **Inspect** is extremely valuable for webdev. From the dev tools HTML can be viewed, and CSS can be de-bugged. For example the selected element's padding, margins etc can be seen with the box-viewer. The Javascript console is also available.
-![](/home/top/Pictures/viewCss.png)
+![](/Pictures/viewCss.png)
 - Don't forget to Google 'css thing' if you're unsure of what to do. There are many resources available online to learn 
 - If the website is not updating to changes, **Inspect > Network > check Disable Cache** and also cleat Chrome's cache in Settings 
