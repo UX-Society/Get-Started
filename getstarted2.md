@@ -28,9 +28,22 @@ First go to https://github.com/UXSoc and create an account using your *Chapman e
 
 After that, go to https://education.github.com/pack to claim free stuff. (Note: only email addresses ending in @chapman.edu will automatically get approved)
 
-Next, connect your Github account to your computer using ssh keys ________________.
+## Set-up SSH
 
-Will your account set-up a project has to be cloned in order to edit it. To start clone this project which can be found in the UX Github page as **Get Started**
+Next add a key to GitHub so you can use SSH:
+
+1)  Open a terminal and paste `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+2)  As long as you didn't set a different location go to the .ssh diretory ` cd ~/.ssh/`
+3) Print out the key with `cat id_rsa.pub`
+4) Copy it from terminal (Tip: Ctrl-V will likely not work, instead Highlight -> Right-Click -> Copy)
+5) Go to Github and go to https://github.com/settings/keys 
+6) Click on `New SSH Key` paste and confirm
+7) Run `ssh -T git@github.com` and answer 'yes' so GitHub is trusted
+
+
+## Clone Test
+
+With your account set-up, now a project has to be cloned in order to edit it. To start clone this project which can be found in the UX Github page as **Get Started**
 
 1) Navigate to the page and click on **Clone or Download**
 2) Click on **Use SSH** and copy the link there
