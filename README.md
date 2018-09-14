@@ -51,7 +51,7 @@ With your account set-up, now a project has to be cloned in order to edit it. To
 2) Click on **Use SSH** and copy the link there
 3) Run the command `git clone git@github.com:UXSoc/Get-Started.git` to create a directory will all of the project's content
 4) Open the cloneme.txt file and add your name
-5) Run `git push` to update to your changes and `git commit -m "Your message here"` to commit your changes to the master branch
+5) Run `git commit -m "Your message here"` to commit your changes to the master branch then `git push` to update to your changes
 6) Check the online version to make sure your changes have been recorded
 
 ### Tips 
