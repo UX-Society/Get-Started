@@ -59,7 +59,7 @@ With your account set-up, now a project has to be cloned in order to edit it. To
 - If there is an error try running `git add [filelocation]` to resolve it
 - Webstorm can handle git/Github instead and includes UI elements which may make your life easier
 
-#Webstorm
+# Webstorm
 Webstorm is the Webdev IDE that we use because it is free to students and fully-featured.
 
 Install by going to https://www.jetbrains.com/student/ and using your *Chapman email* to create an account. Then go to https://www.jetbrains.com/webstorm/ download and sign in to use for free.
