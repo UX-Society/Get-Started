@@ -85,6 +85,15 @@ Use the **Commit** sub-menu option to see all the files being commited, individu
 Don't forget to use **VCS > Update Project** to get the most recent files.
 If the clone is from a fork and not a true master do `git remote set-url origin git@github.com:UX-Society/[reponame].git` before updating, then change it back to your fork.
 
+
+## Pull Request
+Instead of allowing members to directly contribute, the project manager looks over pull requests for changes.
+- Fork the repository, and go to your personal version
+- Clone that repo locally
+- Commit and push to you repo
+- On te github page, go to the *Pull requests* tab and open a new request (note: future commits will be automatically added to the request)
+- Wait or notify the PM of the request, then see if they were rejected or accepted 
+
 # Learning Webdev
 Individual projects will use different libraries and support tools, but they all share the central pillars of a webpage.
 
@@ -98,14 +107,6 @@ Individual projects will use different libraries and support tools, but they all
 - Don't forget to Google 'css thing' if you're unsure of what to do. There are many resources available online to learn 
 - If the website is not updating to changes, **Inspect > Network > check Disable Cache** and also cleat Chrome's cache in Settings
 - https://developer.mozilla.org/en-US/ is a great resource for almost anything webdev
-
-## Pull Request
-Instead of allowing members to directly contribute, the project manager looks over pull requests for changes.
-- Fork the repository, and go to your personal version
-- Clone that repo locally
-- Commit and push to you repo
-- On te github page, go to the *Pull requests* tab and open a new request (note: future commits will be automatically added to the request)
-- Wait or notify the PM of the request, then see if they were rejected or accepted 
 
 ### Fish
 [Fish Shell](https://fishshell.com/) is recommended to make console usage easy.
