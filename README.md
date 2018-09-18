@@ -64,6 +64,8 @@ Webstorm is the Webdev IDE that we use because it is free to students and fully-
 
 Install by going to https://www.jetbrains.com/student/ and using your *Chapman email* to create an account. Then go to https://www.jetbrains.com/webstorm/ download and sign in to use for free.
 
+Next install and login into Webstorm. Make sure to select the markdown plugin when installing.
+
 Inside Webstorm use **Check out from Version Control** and sign into Github to automatically clone and manage a project. 
 
 ![screenshot of file display in Webstorm](/Pictures/filemanager.png) 
