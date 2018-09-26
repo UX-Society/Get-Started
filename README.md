@@ -121,7 +121,7 @@ If you are also using Webstorm on Windows make sure to **uncheck** File > Settin
 
 ![Screenshot of turning off safe write](Pictures/saynotosafewrite.png)
 
-No doing this results in an error in Webstorm when running a watcher and trying to edit files.
+Not doing this results in an error in Webstorm when running a watcher and trying to edit files.
 
 # Learning Webdev
 Individual projects will use different libraries and support tools, but they all share the central pillars of a webpage.
