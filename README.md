@@ -94,7 +94,34 @@ Instead of allowing members to directly contribute, the project manager looks ov
 - Clone that repo locally
 - Commit and push to you repo
 - On te github page, go to the *Pull requests* tab and open a new request (note: future commits will be automatically added to the request)
-- Wait or notify the PM of the request, then see if they were rejected or accepted 
+- Wait or notify the PM of the request, then see if they were rejected or accepted
+
+# Windows
+This section is only for Windows users to set-up a Unix like environment to have an easier time developing and using our products.
+
+- Open PowerShell as Admin, Start Menu > Search for "powershell" > Right-click > "Run as Administrator" > Click "yes"
+- Run the command `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`, restart when prompted
+- Go to [Microsoft Store](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6) and install Ubuntu subsystem
+
+### Setup
+
+After installing you can access you're files with the command `cd /mnt/c` and then navigate to them by going to the *Users* folder and then your user folder.
+
+Don't want to navigate that every time? No problem just follow these steps
+- On launch type `nano .bashrc`
+- At the bottom of the file add the command to change into you're directory it should look like:
+```
+cd /mnt/u/Users/[Your Username]
+```   
+- You can optionally add /WebStormProjects after your username too, to always open to up there
+- Add the command `fish` after that line to also automatically open fish if it is installed, see [fish here](https://github.com/UXSoc/Get-Started#fish)
+
+### After installing Webstorm
+If you are also using Webstorm on Windows make sure to **uncheck** File > Settings > Appearance & Behavoir > System Settings > Synchronization > 'Use "safe write"'
+
+![Screenshot of turning off safe write](Pictures/saynotosafewrite.png)
+
+No doing this results in an error in Webstorm when running a watcher and trying to edit files.
 
 # Learning Webdev
 Individual projects will use different libraries and support tools, but they all share the central pillars of a webpage.
@@ -114,4 +141,3 @@ Individual projects will use different libraries and support tools, but they all
 [Fish Shell](https://fishshell.com/) is recommended to make console usage easy.
 
 Test it out with the command `fish` in terminal or run `sudo chsh -s /usr/bin/fish` and restart to set it as the default shell. 
-  
