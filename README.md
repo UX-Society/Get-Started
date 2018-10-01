@@ -109,10 +109,10 @@ After installing you can access you're files with the command `cd /mnt/c` and th
 
 Don't want to navigate that every time? No problem just follow these steps
 - On launch type `nano .bashrc`
-- At the bottom of the file add the command to change into you're directory it should look like:
+- At the bottom of the file add the command to change into your directory it should look like:
 ```
 cd /mnt/c/Users/[Your Username]
-```   
+```
 - You can optionally add /WebStormProjects after your username too, to always open to up there
 - Add the command `fish` after that line to also automatically open fish if it is installed, see [fish here](https://github.com/UXSoc/Get-Started#fish)
 
