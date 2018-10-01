@@ -1,6 +1,6 @@
 # Terminal 
 
-The terminal is a powerful way to use a computer and learning how to use it properly important for serious work. Using the terminal is easy for macOs and other Linux based computers and replacing bash with fish will make it even easier. Windows is not recommended for dev work, but skip to [the Windows section](https://github.com/UXSoc/Get-Started#windows) for help with setup. To use the terminal a command has to be given which follows this general format.
+The terminal is a powerful way to use a computer and learning how to use it properly important for serious work. Using the terminal is easy for macOS/OS X and other Linux based computers and replacing bash with fish will make it even easier. Windows is not recommended for dev work, but skip to [the Windows section](https://github.com/UXSoc/Get-Started#windows) for help with setup. To use the terminal a command has to be given which follows this general format.
 ```
     username@hostname:location$ "command name" "command sub-name" -arguments "info"
 ```
