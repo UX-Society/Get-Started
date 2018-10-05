@@ -29,7 +29,7 @@ Here are some useful commands:
 
 `Git Add *` :negative_squared_cross_mark:, don't capitalize commands
 
-`git add` :heavy_check_mark:
+`git add *` :heavy_check_mark:
 
 # Github
 Github is a powerful version control platform used by us and also numerous professional. This Tutorial will go through set-up and basic usage of git and Github.
