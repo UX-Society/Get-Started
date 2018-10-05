@@ -23,6 +23,14 @@ Here are some useful commands:
 - Ctrl-L will clear the console
 - Ctrl-C stops the currently running command
 
+### Terminal examples
+
+`gitadd*` :negative_squared_cross_mark:, make sure to put a space between each part of the command
+
+`Git Add *` :negative_squared_cross_mark:, don't capitalize commands
+
+`git add` :heavy_check_mark:
+
 # Github
 Github is a powerful version control platform used by us and also numerous professional. This Tutorial will go through set-up and basic usage of git and Github.
 
@@ -43,16 +51,23 @@ Next add a key to GitHub so you can use SSH:
 7) Run `ssh -T git@github.com` and answer 'yes' so GitHub is trusted
 
 
+After that is working, run the following to set-up git locally:
+```
+git config --global user.name "Your Name"
+git config --global user.email your_email@chapman.edu
+```
+
 ## Clone Test
 
 With your account set-up, now a project has to be cloned in order to edit it. To start clone this project which can be found in the UX Github page as **Get Started**
 
-1) From this page on github click on **Clone or Download**
-2) Click on **Use SSH** and copy the link there
-3) Run the command `git clone git@github.com:UXSoc/Get-Started.git` to create a directory will all of the project's content
-4) Open the cloneme.txt file and add your name
-5) Run `git commit -m "Your message here"` to commit your changes to the master branch then `git push` to update to your changes
-6) Check the online version to make sure your changes have been recorded
+1. From this page on github click on **Clone or Download**
+1. Click on **Use SSH** and copy the link there
+1. Run the command `git clone git@github.com:UXSoc/Get-Started.git` to create a directory will all of the project's content
+1. Open the cloneme.txt file and add your name, and save
+1. Run `git add cloneme.txt` to add it to git tracking
+1. Run `git commit -m "Your message here"` to commit your changes to the master branch then `git push` to update to your changes
+1. Check the online version to make sure your changes have been recorded
 
 ### Tips 
 
@@ -141,3 +156,5 @@ Individual projects will use different libraries and support tools, but they all
 [Fish Shell](https://fishshell.com/) is recommended to make console usage easy.
 
 Test it out with the command `fish` in terminal or run `sudo chsh -s /usr/bin/fish` and restart to set it as the default shell. 
+
+See [this documentation](https://github.com/fish-shell/fish-shell#packages-for-linux) for how to install on Ubuntu or Ubuntu for Windows
