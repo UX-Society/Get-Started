@@ -1,6 +1,6 @@
 # Terminal 
 
-The terminal is a powerful way to use a computer and learning how to use it properly important for serious work. Using the terminal is easy for macOs and other Linux based computers and replacing bash with fish will make it even easier. Windows is not recommended for dev work, but skip to [the Windows section](https://github.com/UXSoc/Get-Started#windows) for help with setup. To use the terminal a command has to be given which follows this general format.
+The terminal is a powerful way to use a computer and learning how to use it properly important for serious work. Using the terminal is easy for macOS/OS X and other Linux based computers and replacing bash with fish will make it even easier. Windows is not recommended for dev work, but skip to [the Windows section](https://github.com/UXSoc/Get-Started#windows) for help with setup. To use the terminal a command has to be given which follows this general format.
 ```
     username@hostname:location$ "command name" "command sub-name" -arguments "info"
 ```
@@ -124,10 +124,10 @@ After installing you can access you're files with the command `cd /mnt/c` and th
 
 Don't want to navigate that every time? No problem just follow these steps
 - On launch type `nano .bashrc`
-- At the bottom of the file add the command to change into you're directory it should look like:
+- At the bottom of the file add the command to change into your directory it should look like:
 ```
-cd /mnt/u/Users/[Your Username]
-```   
+cd /mnt/c/Users/[Your Username]
+```
 - You can optionally add /WebStormProjects after your username too, to always open to up there
 - Add the command `fish` after that line to also automatically open fish if it is installed, see [fish here](https://github.com/UXSoc/Get-Started#fish)
 
