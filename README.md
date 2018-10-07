@@ -1,3 +1,7 @@
+# Before Starting
+
+Ask an Admin for the https://github.com/UXSoc Github group to invite you, which can be done through People > Invite Member. Then navigate to the same page an accept the invite. 
+
 # Terminal 
 
 The terminal is a powerful way to use a computer and learning how to use it properly important for serious work. Using the terminal is easy for macOS/OS X and other Linux based computers and replacing bash with fish will make it even easier. Windows is not recommended for dev work, but skip to [the Windows section](https://github.com/UXSoc/Get-Started#windows) for help with setup. To use the terminal a command has to be given which follows this general format.
