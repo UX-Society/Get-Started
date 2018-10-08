@@ -1,6 +1,6 @@
 # Before Starting
 
-Ask an Admin for the https://github.com/UXSoc Github group to invite you, which can be done through People > Invite Member. Then navigate to the same page an accept the invite. 
+Ask an Admin for the https://github.com/UXSoc Github group to invite you, which can be done through People > Invite Member. Then navigate to the same page and accept the invite. 
 
 # Terminal 
 
