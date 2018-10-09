@@ -161,4 +161,4 @@ Individual projects will use different libraries and support tools, but they all
 
 Test it out with the command `fish` in terminal or run `sudo chsh -s /usr/bin/fish` and restart to set it as the default shell. 
 
-See [this documentation](https://github.com/fish-shell/fish-shell#packages-for-linux) for how to install on Ubuntu or Ubuntu for Windows
+See [this documentation](https://github.com/fish-shell/fish-shell#packages-for-linux) for how to install on Ubuntu, Debian, or Ubuntu for Windows
