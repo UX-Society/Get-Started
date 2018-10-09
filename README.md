@@ -153,7 +153,7 @@ Individual projects will use different libraries and support tools, but they all
 - Right-click > **Inspect** is extremely valuable for webdev. From the dev tools HTML can be viewed, and CSS can be de-bugged. For example the selected element's padding, margins etc can be seen with the box-viewer. The Javascript console is also available.
 ![](/Pictures/viewCss.png)
 - Don't forget to Google 'css thing' if you're unsure of what to do. There are many resources available online to learn 
-- If the website is not updating to changes, **Inspect > Network > check Disable Cache** and also cleat Chrome's cache in Settings
+- If the website is not updating to changes, **Inspect > Network > check Disable Cache** or also right click the reload button with Inspect tools open
 - https://developer.mozilla.org/en-US/ is a great resource for almost anything webdev
 
 ### Fish
