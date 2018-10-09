@@ -75,7 +75,7 @@ With your account set-up, now a project has to be cloned in order to edit it. To
 
 ### Tips 
 
-- If there is an error try running `git add [filelocation]` to resolve it
+- If there is an error try running `git add [file location]` to resolve it
 - Webstorm can handle git/Github instead and includes UI elements which may make your life easier
 
 # Webstorm
@@ -104,7 +104,7 @@ The **VCS** menu also can manage the project's version
 Use the **Commit** sub-menu option to see all the files being commited, individual changes, and add a message there too. Commits can also be pushed from the arrow on the commit button at the same time.
 
 Don't forget to use **VCS > Update Project** to get the most recent files.
-If the clone is from a fork and not a true master do `git remote set-url origin git@github.com:UX-Society/[reponame].git` before updating, then change it back to your fork.
+If the clone is from a fork and not a true master do `git remote set-url origin git@github.com:UX-Society/[repo name].git` before updating, then change it back to your fork.
 
 
 ## Pull Request
