@@ -40,7 +40,7 @@ Github is a powerful version control platform used by us and also numerous profe
 
 First go to https://github.com/UXSoc and create an account using your *Chapman email*.
 
-After that, go to https://education.github.com/pack to claim free stuff. (Note: only email addresses ending in @chapman.edu will automatically get automatically approved, NOT @.mail.chapman.edu)
+After that, go to https://education.github.com/pack to claim free stuff. (Note: only email addresses ending in @chapman.edu will automatically get automatically approved, NOT @mail.chapman.edu)
 
 ## Set-up SSH
 
