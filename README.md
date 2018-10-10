@@ -125,7 +125,7 @@ This section is only for Windows users to set-up a Unix like environment to have
 
 ### Setup
 
-After installing you can access you're files with the command `cd /mnt/c` and then navigate to them by going to the *Users* folder and then your user folder.
+After installing you can access you're files with the command `cd /mnt/c` and then navigate to them by going to the *Users* folder and then your Windows user folder.
 
 Don't want to navigate that every time? No problem just follow these steps
 - On launch type `nano .bashrc`
@@ -134,6 +134,7 @@ Don't want to navigate that every time? No problem just follow these steps
 cd /mnt/c/Users/[Your Username]
 ```
 - You can optionally add /WebStormProjects after your username too, to always open to up there
+- It is best to test out the cd command before adding it to the *.bashrc* to see if it works
 - Add the command `fish` after that line to also automatically open fish if it is installed, see [fish here](https://github.com/UXSoc/Get-Started#fish)
 
 ### After installing Webstorm
