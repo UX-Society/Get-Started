@@ -157,6 +157,7 @@ Individual projects will use different libraries and support tools, but they all
 - Don't forget to Google 'css thing' if you're unsure of what to do. There are many resources available online to learn 
 - If the website is not updating to changes, **Inspect > Network > check Disable Cache** or also right click the reload button with Inspect tools open
 - https://developer.mozilla.org/en-US/ is a great resource for almost anything webdev
+- An easy way to install node for Ubuntu: [or any package manager](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 
 ### Fish
 [Fish Shell](https://fishshell.com/) is recommended to make console usage easy.
