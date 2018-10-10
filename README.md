@@ -133,6 +133,7 @@ Don't want to navigate that every time? No problem just follow these steps
 ```
 cd /mnt/c/Users/[Your Username]
 ```
+- Ctrl-V doesn't work, the only way to copy or paste is to Right-click which saves or fills data.
 - You can optionally add /WebStormProjects after your username too, to always open to up there
 - It is best to test out the cd command before adding it to the *.bashrc* to see if it works
 - Add the command `fish` after that line to also automatically open fish if it is installed, see [fish here](https://github.com/UXSoc/Get-Started#fish)
