@@ -65,7 +65,8 @@ git config --global user.email your_email@chapman.edu
 
 With your account set-up, now a project has to be cloned in order to edit it. To start clone this project which can be found in the UX Github page as **Get Started**
 
-1. From this page on github click on **Clone or Download**
+1. Click the 'fork' button in the upper right to make a personal copy of this project
+1. From your on github click on **Clone or Download**
 1. Click on **Use SSH** and copy the link there
 1. Run the command `git clone git@github.com:UXSoc/Get-Started.git` to create a directory will all of the project's content
 1. Open the cloneme.txt file and add your name, and save
@@ -99,7 +100,7 @@ The bottom will sometime have a pop-up that gives errors and other info about th
 
 ## Webstorm VCS
 
-The **VCS** menu also can manage the project's version
+The **VCS** menu also can manage the project's version, make sure add the account in Settings > Version Control > Github > '+' button on the right.
 
 Use the **Commit** sub-menu option to see all the files being commited, individual changes, and add a message there too. Commits can also be pushed from the arrow on the commit button at the same time.
 
