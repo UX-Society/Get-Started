@@ -2,6 +2,9 @@
 
 Ask an Admin for the https://github.com/UXSoc Github group to invite you, which can be done through People > Invite Member. Then navigate to the same page and accept the invite. 
 
+**If you are using Windows make sure it is on the latest branch and version before starting***
+____
+
 # Terminal 
 
 The terminal is a powerful way to use a computer and learning how to use it properly important for serious work. Using the terminal is easy for macOS/OS X and other Linux based computers and replacing bash with fish will make it even easier. Windows is not recommended for dev work, but skip to [the Windows section](https://github.com/UXSoc/Get-Started#windows) for help with setup. To use the terminal a command has to be given which follows this general format.
@@ -46,8 +49,8 @@ After that, go to https://education.github.com/pack to claim free stuff. (Note: 
 
 Next add a key to GitHub so you can use SSH:
 
-1)  Open a terminal and paste `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
-2)  As long as you didn't set a different location go to the .ssh diretory ` cd ~/.ssh/` (press enter to skip all prompts)
+1)  Open a terminal and paste `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"` *(press enter to skip all prompts)*
+2)  As long as you didn't set a different location go to the .ssh diretory ` cd ~/.ssh/` 
 3) Print out the key with `cat id_rsa.pub`
 4) Copy it from terminal (Tip: Ctrl-V will likely not work, instead Highlight -> Right-Click -> Copy)
 5) Go to Github and go to https://github.com/settings/keys 
@@ -65,7 +68,7 @@ git config --global user.email your_email@chapman.edu
 
 With your account set-up, now a project has to be cloned in order to edit it. To start clone this project which can be found in the UX Github page as **Get Started**
 
-1. Click the 'fork' button in the upper right to make a personal copy of this project
+1. Click the *'fork'* button in the upper right to make a personal copy of this project
 1. From your on github click on **Clone or Download**
 1. Click on **Use SSH** and copy the link there
 1. Run the command `git clone git@github.com:UXSoc/Get-Started.git` to create a directory will all of the project's content
@@ -137,6 +140,9 @@ cd /mnt/c/Users/[Your Username]
 - You can optionally add /WebStormProjects after your username too, to always open to up there
 - It is best to test out the cd command before adding it to the *.bashrc* to see if it works
 - Add the command `fish` after that line to also automatically open fish if it is installed, see [fish here](https://github.com/UXSoc/Get-Started#fish)
+
+### Failure
+If Ubuntu for Windows can't install, try [Git for Windows](https://github.com/git-for-windows/git/releases/download/v2.19.1.windows.1/Git-2.19.1-64-bit.exe). Note: download starts immediatly.
 
 ### After installing Webstorm
 If you are also using Webstorm on Windows make sure to **uncheck** File > Settings > Appearance & Behavoir > System Settings > Synchronization > 'Use "safe write"'
