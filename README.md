@@ -2,7 +2,7 @@
 
 Ask an Admin for the https://github.com/UXSoc Github group to invite you, which can be done through People > Invite Member. Then navigate to the same page and accept the invite. 
 
-**If you are using Windows make sure it is on the latest branch and version before starting***
+**If you are using Windows make sure it is on the latest branch and version before starting**
 ____
 
 # Terminal 
@@ -49,7 +49,7 @@ After that, go to https://education.github.com/pack to claim free stuff. (Note: 
 
 Next add a key to GitHub so you can use SSH:
 
-1)  Open a terminal and paste `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"` *(press enter to skip all prompts)*
+1)  Open a terminal and paste `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"` **(press enter to skip all prompts)**
 2)  As long as you didn't set a different location go to the .ssh diretory ` cd ~/.ssh/` 
 3) Print out the key with `cat id_rsa.pub`
 4) Copy it from terminal (Tip: Ctrl-V will likely not work, instead Highlight -> Right-Click -> Copy)
