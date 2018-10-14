@@ -141,8 +141,8 @@ cd /mnt/c/Users/[Your Username]
 - It is best to test out the cd command before adding it to the *.bashrc* to see if it works
 - Add the command `fish` after that line to also automatically open fish if it is installed, see [fish here](https://github.com/UXSoc/Get-Started#fish)
 
-### Failure
-If Ubuntu for Windows can't install, try [Git for Windows](https://github.com/git-for-windows/git/releases/download/v2.19.1.windows.1/Git-2.19.1-64-bit.exe). Note: download starts immediatly.
+### Add Git to Windows
+If Ubuntu for Windows can't install or you want to use Git version contol inside Webstorm, try [Git for Windows](https://github.com/git-for-windows/git/releases/download/v2.19.1.windows.1/Git-2.19.1-64-bit.exe). Note: download starts immediatly.
 
 ### After installing Webstorm
 If you are also using Webstorm on Windows make sure to **uncheck** File > Settings > Appearance & Behavoir > System Settings > Synchronization > 'Use "safe write"'
