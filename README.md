@@ -177,6 +177,3 @@ See [this documentation](https://github.com/fish-shell/fish-shell#packages-for-l
 [Atom](https://atom.io/) is recommended for those who can't aquire Webstorm or when Webstorm is to resource heavy to run on a computer.
 
 It also supports hot-reload from disk and doesn't require the window to be refocused. 
-
-<a href="http://example.com/" target="_blank">Hello, world!</a>
-
